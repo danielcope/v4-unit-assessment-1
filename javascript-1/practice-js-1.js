@@ -32,7 +32,7 @@ function sum (num1,num2) {
 */
 
 function trueOrFalse (data){
-  if (data !== false || null || undefined || 0 || 'NaN'){
+  if (data !== false && data !== null && data !== undefined &&  data !==0 && data !== '' ){
     return true  
     } else {
     return false
