@@ -1,0 +1,132 @@
+header {
+  background-color:rgb(168, 235, 219);
+  height: 10vh;
+  text-align: left;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+main {
+  border: dotted grey 1px;
+  height: 30vh;
+}
+
+main.circles {
+  height: 50vh;
+}
+
+img {
+  max-height: 10px;
+}
+
+.rect {
+  display:inline
+}
+
+#left-rect {
+  background-color: indigo;
+  height: 90px;
+  width: 250px;
+  border: solid red 1px;
+  clear: left;
+  margin: 10px;
+  margin-top: 100px;
+  display: inline-flex;
+}
+
+#mid-rect {
+  background-color:blue;
+  display: inline-flex;
+  height: 90px;
+  width: 90px;  
+  margin: 10px;
+  box-shadow: 4px 4px 5px rgb(5, 5, 5);
+}
+
+#right-rect {
+  background-color:salmon;
+  height: 200px;
+  width: 200px;
+  border: solid rgb(0, 0, 0) 1px;
+  display: inline-flex;
+  margin: 10px;
+}
+
+.top-cir {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: black solid 1px;
+  margin-left: 40px;
+}
+
+.mid-cir {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: black solid 1px;
+  margin-left: 30px;
+}
+
+.bot-cir {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: black solid 1px;
+  margin-left: 20px;
+}
+
+.coal {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.eyes {
+  margin-left: 8px;
+  margin-top: 10px;
+  display: inline-flex;
+}
+
+.carrot {
+  margin-left: 20px;
+  max-height:10px;
+}
+
+
+.yellow-square {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(243, 220, 191);
+  margin: 10px;
+  border:rgb(0, 0, 0) solid 1px;
+}
+
+.green-cir {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  padding:10px
+}
+
+.red-square {
+  height:80px;
+  width: 80px;
+  background-color: rgb(161, 60, 46);
+  margin-left: 30px;
+}
+
+.blue-cir {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(24, 27, 204);
+}
+
+.fish {
+  margin-top: 5px;
+}

@@ -1,0 +1,63 @@
+header {
+background-color: rgb(247, 156, 146);
+border: black solid 1px;
+height: 10 vh;
+width: 100 vw;
+padding-top: 25px;
+padding-left: 20px;
+}
+
+h1 {
+  display: inline-flex;
+}
+
+h2 {
+  margin: 10px;
+  margin-top: 30px;
+  height: 10%;
+}
+
+button {
+  display: inline;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+section {
+  border: black dotted 5px;
+  height: 40vh;
+  margin: 8px;
+  padding: 20px
+}
+
+img.html {
+  border-radius: 25px; 
+  max-width: 10vw;
+  margin:15px;
+  float: left;
+}
+
+img.css {
+border-radius: 25px; 
+  max-width: 8vw;
+  margin: 20px;
+  float: right;
+}
+
+article {
+  display: inline;
+  text-align: left;
+  height: 80%;
+  padding: 20px;
+}
+
+p {
+  display: inline;
+  text-align: left;
+  padding: 20px;
+  height: 80%;
+}
